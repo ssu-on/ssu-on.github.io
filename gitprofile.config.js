@@ -11,49 +11,35 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
     facebook: '',
     instagram: '',
-    dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'archblossom@g.skku.edu',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Android Studio',
+    'Unity',
+    'Blender',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'AutoSemantics',
+      position: 'AI model developer, UI/UX developer',
+      from: 'April 2022',
+      to: 'December 2022',
+      companyLink: 'https://www.autosemantics.co.kr/',
     },
     {
       company: 'Company Name',
@@ -73,16 +59,17 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
+      institution: "Sehwa Girls' High School",
       degree: 'Degree',
       from: '2015',
-      to: '2019',
+      to: '2018',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Sungkyunkwan University',
+      degree: 'Bachelor Degree',
+      major: 'Department of Software',
+      from: '2020',
+      to: 'present',
     },
   ],
 
