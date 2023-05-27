@@ -12,7 +12,7 @@ const config = {
   },
   social: {
     facebook: '',
-    instagram: '',
+    instagram: 'https://instagram/ssu__on',
     behance: '',
     stackoverflow: '', // format: userid/username
     skype: '',
@@ -41,13 +41,6 @@ const config = {
       to: 'December 2022',
       companyLink: 'https://www.autosemantics.co.kr/',
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
   ],
   /* certifications: [
     {
@@ -59,15 +52,26 @@ const config = {
   ], */
   education: [
     {
+      institution: "Seo2 Element School",
+      degree: 'Degree',
+      from: '2007',
+      to: '2012',
+    },
+    {
+      institution: "Seoun Middle School",
+      degree: 'Degree',
+      from: '2012',
+      to: '2015',
+    },
+    {
       institution: "Sehwa Girls' High School",
       degree: 'Degree',
       from: '2015',
       to: '2018',
     },
     {
-      institution: 'Sungkyunkwan University',
+      institution: 'Department of Software at Sungkyunkwan University',
       degree: 'Bachelor Degree',
-      major: 'Department of Software',
       from: '2020',
       to: 'present',
     },
