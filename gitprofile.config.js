@@ -42,14 +42,14 @@ const config = {
       companyLink: 'https://www.autosemantics.co.kr/',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com'
     },
-  ], */
+  ],
   education: [
     {
       institution: "Seo2 Element School",
