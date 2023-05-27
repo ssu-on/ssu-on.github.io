@@ -142,13 +142,13 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                         skeleton({ width: 'w-40', height: 'h-8' })
                       ) : (
                         <span className="text-base-content opacity-70">
-                          My Projects
+                          Introduction
                         </span>
                       )}
                     </h5>
                   </div>
                   <div className="col-span-2">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                       {loading ? renderSkeleton() : renderExternalProjects()}
                     </div>
                   </div>
