@@ -80,18 +80,10 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'About me',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        "Hi! I am Suyeon Jeon, a senior at SKKU, majoring in software. My interests are computer graphics, game development, and deep learning. I am currently developing a game as a member of feRia's team.",
+      imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fkr%2Ffree-icon%2Fsnowflake_1842576&psig=AOvVaw25KtShSQC9FbaCxXLfF_VT&ust=1685256656805000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDxvLf0lP8CFQAAAAAdAAAAABAD',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
