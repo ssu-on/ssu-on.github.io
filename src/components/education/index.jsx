@@ -2,7 +2,7 @@ import { skeleton } from '../../helpers/utils';
 import { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const ListItem = ({ time, degree, institution, major }) => (
+const ListItem = ({ time, degree, institution }) => (
   <li className="mb-5 ml-4">
     <div
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
@@ -10,8 +10,7 @@ const ListItem = ({ time, degree, institution, major }) => (
     ></div>
     <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{degree}</h3>
-    <div className="mb-1 font-normal">{institution}</div>
-    <div className="mb-4 font-normal">{major}</div> {/* 추가된 부분 */}
+    <div className="mb-4 font-normal">{institution}</div>
   </li>
 );
 
@@ -32,7 +31,6 @@ const Education = ({ loading, education }) => {
             className: 'my-1.5',
           })}
           institution={skeleton({ width: 'w-6/12', height: 'h-3' })}
-          major={skeleton({ width: 'w-4/12', height: 'h-3' })} {/* 추가된 부분 */}
         />
       );
     }
@@ -68,7 +66,6 @@ const Education = ({ loading, education }) => {
                         time={`${item.from} - ${item.to}`}
                         degree={item.degree}
                         institution={item.institution}
-                        major={item.major} {/* 추가된 부분 */}
                       />
                     ))}
                   </Fragment>
@@ -91,7 +88,6 @@ ListItem.propTypes = {
   time: PropTypes.node,
   degree: PropTypes.node,
   institution: PropTypes.node,
-  major: PropTypes.node, // 추가된 부분
 };
 
 export default Education;
