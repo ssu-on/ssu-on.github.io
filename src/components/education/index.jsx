@@ -90,8 +90,8 @@ Education.propTypes = {
 ListItem.propTypes = {
   time: PropTypes.node,
   degree: PropTypes.node,
-  major: PropTypes.node,
   institution: PropTypes.node,
+  major: PropTypes.node, // 추가된 부분
 };
 
 export default Education;
