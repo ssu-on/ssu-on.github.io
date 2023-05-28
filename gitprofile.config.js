@@ -29,7 +29,7 @@ const config = {
     'JavaScript',
     'CSS',
     'Python',
-    'C/C++'
+    'C/C++',
     'Git',
     'Android Studio',
     'Unity',
