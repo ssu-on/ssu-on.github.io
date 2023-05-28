@@ -34,6 +34,7 @@ const config = {
     'Android Studio',
     'Unity',
     'Blender',
+    'English',
   ],
   experiences: [
     {
