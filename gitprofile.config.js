@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'ssu-on', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 5, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -27,8 +27,10 @@ const config = {
   },
   skills: [
     'JavaScript',
-    'Git',
     'CSS',
+    'Python',
+    'C/C++'
+    'Git',
     'Android Studio',
     'Unity',
     'Blender',
@@ -44,10 +46,10 @@ const config = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Metaverse Hackathon',
+      body: 'This is a hackathon for building a school introduction metaverse for freshmen hosted by Sungkyunkwan University. As a member of the Metavers Studio club, I built a metaverse that introduces the school through NPCs using Roblox.',
+      year: 'September 2022',
+      //link: 'https://example.com'
     },
   ],
   education: [
@@ -83,7 +85,7 @@ const config = {
       title: 'About me',
       description:
         "Hi! I am Suyeon Jeon, a senior at SKKU, majoring in software. My interests are computer graphics, game development, and deep learning. I am currently developing a game as a member of feRia's team.",
-      imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fkr%2Ffree-icon%2Fsnowflake_1842576&psig=AOvVaw25KtShSQC9FbaCxXLfF_VT&ust=1685256656805000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDxvLf0lP8CFQAAAAAdAAAAABAD',
+      // imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fkr%2Ffree-icon%2Fsnowflake_1842576&psig=AOvVaw25KtShSQC9FbaCxXLfF_VT&ust=1685256656805000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDxvLf0lP8CFQAAAAAdAAAAABAD',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
