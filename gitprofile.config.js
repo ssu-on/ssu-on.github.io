@@ -49,7 +49,7 @@ const config = {
       name: 'Metaverse Hackathon',
       body: 'This is a hackathon for building a school introduction metaverse for freshmen hosted by Sungkyunkwan University. As a member of the Metavers Studio club, I built a metaverse that introduces the school through NPCs using Roblox.',
       year: 'September 2022',
-      //link: 'https://example.com'
+      link: 'https://example.com'
     },
   ],
   education: [
@@ -83,9 +83,8 @@ const config = {
   externalProjects: [
     {
       title: 'About me',
-      description:
-        "Hi! I am Suyeon Jeon, a senior at SKKU, majoring in software. My interests are computer graphics, game development, and deep learning. I am currently developing a game as a member of feRia's team.",
-      // imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fkr%2Ffree-icon%2Fsnowflake_1842576&psig=AOvVaw25KtShSQC9FbaCxXLfF_VT&ust=1685256656805000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDxvLf0lP8CFQAAAAAdAAAAABAD',
+      description: "Hi! I am Suyeon Jeon, a senior at SKKU, majoring in software. My interests are computer graphics, game development, and deep learning. I am currently developing a game as a member of feRia's team.",
+      imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Fkr%2Ffree-icon%2Fsnowflake_1842576&psig=AOvVaw25KtShSQC9FbaCxXLfF_VT&ust=1685256656805000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDxvLf0lP8CFQAAAAAdAAAAABAD',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
